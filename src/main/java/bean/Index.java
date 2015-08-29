@@ -10,8 +10,11 @@ public class Index {
 
     @PostConstruct
     public void init() {
-
+        System.out.println("Test!");
     }
 
-
+    public String getMessage() {
+        return "Test!";
+    }
 }
+

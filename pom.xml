@@ -93,6 +93,14 @@
             <version>${hibernate.version}</version>
         </dependency>
 
+        <!-- Connection Pool -->
+        <dependency>
+            <groupId>com.zaxxer</groupId>
+            <artifactId>HikariCP</artifactId>
+            <version>2.4.1</version>
+            <scope>compile</scope>
+        </dependency>
+
         <!-- Database Connector -->
         <dependency>
             <groupId>mysql</groupId>

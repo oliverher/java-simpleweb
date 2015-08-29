@@ -8,7 +8,8 @@
         <property name="connection.driver_class"/>
         <property name="connection.username"/>
         <property name="connection.password"/>
-        <!-- DB schema will be updated if needed -->
-        <!-- <property name="hbm2ddl.auto">update</property> -->
+        <property name="hbm2ddl.auto">update</property>
+        <property name="current_session_context_class">thread</property>
+        <property name="hibernate.temp.use_jdbc_metadata_defaults">false</property>
     </session-factory>
 </hibernate-configuration>
